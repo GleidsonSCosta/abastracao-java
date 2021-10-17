@@ -4,7 +4,7 @@ import enuns.Cores;
 
 public class Circulo extends Forma {
 	private Double raio;
-	
+
 	public Circulo() {
 		super();
 	}
@@ -21,9 +21,9 @@ public class Circulo extends Forma {
 	public void setRaio(Double raio) {
 		this.raio = raio;
 	}
-	@Override
+
 	public Double area() {
 		return Math.PI * Math.pow(raio, 2);
 	}
-	
+
 }

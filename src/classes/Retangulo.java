@@ -2,10 +2,10 @@ package classes;
 
 import enuns.Cores;
 
-public class Retangulo extends Forma{
+public class Retangulo extends Forma {
 	private Double largura;
 	private Double altura;
-	
+
 	public Retangulo() {
 		super();
 	}
@@ -31,9 +31,10 @@ public class Retangulo extends Forma{
 	public void setAltura(Double altura) {
 		this.altura = altura;
 	}
+
 	@Override
 	public Double area() {
 		return largura * altura;
 	}
-	
+
 }
