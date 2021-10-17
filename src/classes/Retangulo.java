@@ -31,7 +31,7 @@ public class Retangulo extends Forma{
 	public void setAltura(Double altura) {
 		this.altura = altura;
 	}
-
+	@Override
 	public Double area() {
 		return largura * altura;
 	}
